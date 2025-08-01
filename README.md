@@ -58,3 +58,91 @@ npm run dev
 ```
 
 The API will then be available at `http://localhost:3000`.
+
+## ⛓️ API Endpoints
+
+All endpoints are available under the `/api/v1` path, except for the health check.
+
+### Health Check
+
+-   **GET /health**
+
+    Returns the status of the API.
+
+    ```bash
+    curl http://localhost:3000/health
+    ```
+
+### Chat
+
+-   **GET /api/v1/chat-completion**
+
+    Provides a standard chat completion using Google's Gemini AI.
+
+    **Query Parameters:**
+
+    -   `q`: The query string for the chat completion.
+
+    **Example:**
+
+    ```bash
+    curl "http://localhost:3000/api/v1/chat-completion?q=Hello"
+    ```
+
+-   **GET /api/v1/chat-completion-with-rag**
+
+    Enhances chat completions with context from the Pinecone vector database (Retrieval-Augmented Generation).
+
+    **Query Parameters:**
+
+    -   `q`: The query string for the chat completion.
+
+    **Example:**
+
+    ```bash
+    curl "http://localhost:3000/api/v1/chat-completion-with-rag?q=What%20is%20the%20capital%20of%20France"
+    ```
+
+### Search
+
+-   **GET /api/v1/semantic-search**
+
+    Performs a semantic search using dense vectors in Pinecone.
+
+    **Query Parameters:**
+
+    -   `q`: The query string for the search.
+
+    **Example:**
+
+    ```bash
+    curl "http://localhost:3000/api/v1/semantic-search?q=search%20query"
+    ```
+
+-   **GET /api/v1/lexical-search**
+
+    Performs a lexical search using sparse vectors in Pinecone.
+
+    **Query Parameters:**
+
+    -   `q`: The query string for the search.
+
+    **Example:**
+
+    ```bash
+    curl "http://localhost:3000/api/v1/lexical-search?q=search%20query"
+    ```
+
+-   **GET /api/v1/hybrid-search**
+
+    Performs a hybrid search using both dense and sparse vectors in Pinecone.
+
+    **Query Parameters:**
+
+    -   `q`: The query string for the search.
+
+    **Example:**
+
+    ```bash
+    curl "http://localhost:3000/api/v1/hybrid-search?q=search%20query"
+    ```
