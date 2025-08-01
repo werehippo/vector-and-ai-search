@@ -4,7 +4,7 @@ import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 import { logger as loggerMiddleware } from 'hono/logger';
 import { timeout } from 'hono/timeout';
-import { getCompletion } from './lib/gemini.js';
+import { getCompletion, getCompletionWithRAG } from './lib/gemini.js';
 import {
   runHybridSearch,
   runLexicalSearch,
@@ -25,6 +25,21 @@ apiV1
 
     const completion = await getCompletion(sanitizedQuery);
     return c.json({ completion });
+  })
+  .get('/chat-completion-with-rag', async (c) => {
+    const { q } = c.req.query();
+
+    const sanitizedQuery = (q || '').trim();
+    if (!sanitizedQuery) {
+      return c.json({ message: 'q query parameter is required' }, 400);
+    }
+
+    const searchResult = await runSemanticSearch(sanitizedQuery);
+    const ragContext = searchResult
+      .map((item) => item.metadata.chunkText)
+      .join('\n\n');
+    const completion = await getCompletionWithRAG(sanitizedQuery, ragContext);
+    return c.json({ completion, context: ragContext });
   })
   .get('/semantic-search', async (c) => {
     const { q } = c.req.query();

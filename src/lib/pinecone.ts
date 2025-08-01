@@ -7,6 +7,12 @@ const pc = new Pinecone({ apiKey: env.PINECONE_API_KEY });
 
 const dataChunks = chunk(dataset, 200);
 
+const TOP_K = 10;
+
+export type ProductMetadata = {
+  chunkText: string;
+};
+
 export const ensureDenseIndex = async () => {
   const indexName = env.PINECONE_DENSE_INDEX_NAME;
 
@@ -63,11 +69,11 @@ export const runSemanticSearch = async (query: string) => {
   const { result } = await index.searchRecords({
     query: {
       inputs: { text: query },
-      topK: 3,
+      topK: TOP_K,
     },
     rerank: {
       model: 'bge-reranker-v2-m3',
-      topN: 3,
+      topN: TOP_K,
       rankFields: ['chunkText'],
     },
     fields: ['chunkText'],
@@ -76,7 +82,7 @@ export const runSemanticSearch = async (query: string) => {
   return result.hits.map((match) => ({
     id: match._id,
     score: match._score,
-    metadata: match.fields,
+    metadata: match.fields as ProductMetadata,
   }));
 };
 
@@ -87,7 +93,7 @@ export const runLexicalSearch = async (query: string) => {
   const { result } = await index.searchRecords({
     query: {
       inputs: { text: query },
-      topK: 3,
+      topK: TOP_K,
     },
     fields: ['chunkText'],
   });
@@ -95,7 +101,7 @@ export const runLexicalSearch = async (query: string) => {
   return result.hits.map((match) => ({
     id: match._id,
     score: match._score,
-    metadata: match.fields,
+    metadata: match.fields as ProductMetadata,
   }));
 };
 
@@ -109,6 +115,6 @@ export const runHybridSearch = async (query: string) => {
     .unionBy((x) => x.id)
     .sortBy((x) => x.score)
     .reverse()
-    .take(3)
+    .take(TOP_K)
     .value();
 };
