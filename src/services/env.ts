@@ -10,6 +10,14 @@ const envSchema = z.object({
     .default('info'),
   GEMINI_API_KEY: z.string().nonempty(),
   GEMINI_CHAT_MODEL: z.string().nonempty().startsWith('gemini-'),
+  PINECONE_API_KEY: z.string().nonempty(),
+  PINECONE_CLOUD: z.enum(['aws', 'gcp', 'azure']).default('aws'),
+  PINECONE_REGION: z.string().nonempty().default('us-east-1'),
+  PINECONE_DENSE_INDEX_NAME: z.string().nonempty().default('test-dense-index'),
+  PINECONE_SPARSE_INDEX_NAME: z
+    .string()
+    .nonempty()
+    .default('test-sparse-index'),
 });
 
 const parsedEnv = envSchema.safeParse(process.env);

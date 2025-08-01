@@ -1,0 +1,383 @@
+[
+  {
+    "id": "vec1",
+    "chunkText": "Apple Inc. issued a $10 billion corporate bond in 2023."
+  },
+  {
+    "id": "vec2",
+    "chunkText": "ETFs tracking the S&P 500 outperformed active funds last year."
+  },
+  {
+    "id": "vec3",
+    "chunkText": "Tesla's options volume surged after the latest earnings report."
+  },
+  {
+    "id": "vec4",
+    "chunkText": "Dividend aristocrats are known for consistently raising payouts."
+  },
+  {
+    "id": "vec5",
+    "chunkText": "The Federal Reserve raised interest rates by 0.25% to curb inflation."
+  },
+  {
+    "id": "vec6",
+    "chunkText": "Unemployment hit a record low of 3.7% in Q4 of 2024."
+  },
+  {
+    "id": "vec7",
+    "chunkText": "The CPI index rose by 6% in July 2024, raising concerns about purchasing power."
+  },
+  {
+    "id": "vec8",
+    "chunkText": "GDP growth in emerging markets outpaced developed economies."
+  },
+  {
+    "id": "vec9",
+    "chunkText": "Amazon's acquisition of MGM Studios was valued at $8.45 billion."
+  },
+  {
+    "id": "vec10",
+    "chunkText": "Alphabet reported a 20% increase in advertising revenue."
+  },
+  {
+    "id": "vec11",
+    "chunkText": "ExxonMobil announced a special dividend after record profits."
+  },
+  {
+    "id": "vec12",
+    "chunkText": "Tesla plans a 3-for-1 stock split to attract retail investors."
+  },
+  {
+    "id": "vec13",
+    "chunkText": "Credit card APRs reached an all-time high of 22.8% in 2024."
+  },
+  {
+    "id": "vec14",
+    "chunkText": "A 529 college savings plan offers tax advantages for education."
+  },
+  {
+    "id": "vec15",
+    "chunkText": "Emergency savings should ideally cover 6 months of expenses."
+  },
+  {
+    "id": "vec16",
+    "chunkText": "The average mortgage rate rose to 7.1% in December."
+  },
+  {
+    "id": "vec17",
+    "chunkText": "The SEC fined a hedge fund $50 million for insider trading."
+  },
+  {
+    "id": "vec18",
+    "chunkText": "New ESG regulations require companies to disclose climate risks."
+  },
+  {
+    "id": "vec19",
+    "chunkText": "The IRS introduced a new tax bracket for high earners."
+  },
+  {
+    "id": "vec20",
+    "chunkText": "Compliance with GDPR is mandatory for companies operating in Europe."
+  },
+  {
+    "id": "vec21",
+    "chunkText": "What are the best-performing green bonds in a rising rate environment?"
+  },
+  {
+    "id": "vec22",
+    "chunkText": "How does inflation impact the real yield of Treasury bonds?"
+  },
+  {
+    "id": "vec23",
+    "chunkText": "Top SPAC mergers in the technology sector for 2024."
+  },
+  {
+    "id": "vec24",
+    "chunkText": "Are stablecoins a viable hedge against currency devaluation?"
+  },
+  {
+    "id": "vec25",
+    "chunkText": "Comparison of Roth IRA vs 401(k) for high-income earners."
+  },
+  {
+    "id": "vec26",
+    "chunkText": "Stock splits and their effect on investor sentiment."
+  },
+  {
+    "id": "vec27",
+    "chunkText": "Tech IPOs that disappointed in their first year."
+  },
+  {
+    "id": "vec28",
+    "chunkText": "Impact of interest rate hikes on bank stocks."
+  },
+  {
+    "id": "vec29",
+    "chunkText": "Growth vs. value investing strategies in 2024."
+  },
+  {
+    "id": "vec30",
+    "chunkText": "The role of artificial intelligence in quantitative trading."
+  },
+  {
+    "id": "vec31",
+    "chunkText": "What are the implications of quantitative tightening on equities?"
+  },
+  {
+    "id": "vec32",
+    "chunkText": "How does compounding interest affect long-term investments?"
+  },
+  {
+    "id": "vec33",
+    "chunkText": "What are the best assets to hedge against inflation?"
+  },
+  {
+    "id": "vec34",
+    "chunkText": "Can ETFs provide better diversification than mutual funds?"
+  },
+  { "id": "vec35", "chunkText": "Unemployment hit at 2.4% in Q3 of 2024." },
+  {
+    "id": "vec36",
+    "chunkText": "Unemployment is expected to hit 2.5% in Q3 of 2024."
+  },
+  {
+    "id": "vec37",
+    "chunkText": "In Q3 2025 unemployment for the prior year was revised to 2.2%"
+  },
+  {
+    "id": "vec38",
+    "chunkText": "Emerging markets witnessed increased foreign direct investment as global interest rates stabilized."
+  },
+  {
+    "id": "vec39",
+    "chunkText": "The rise in energy prices significantly impacted inflation trends during the first half of 2024."
+  },
+  {
+    "id": "vec40",
+    "chunkText": "Labor market trends show a declining participation rate despite record low unemployment in 2024."
+  },
+  {
+    "id": "vec41",
+    "chunkText": "Forecasts of global supply chain disruptions eased in late 2024, but consumer prices remained elevated due to persistent demand."
+  },
+  {
+    "id": "vec42",
+    "chunkText": "Tech sector layoffs in Q3 2024 have reshaped hiring trends across high-growth industries."
+  },
+  {
+    "id": "vec43",
+    "chunkText": "The U.S. dollar weakened against a basket of currencies as the global economy adjusted to shifting trade balances."
+  },
+  {
+    "id": "vec44",
+    "chunkText": "Central banks worldwide increased gold reserves to hedge against geopolitical and economic instability."
+  },
+  {
+    "id": "vec45",
+    "chunkText": "Corporate earnings in Q4 2024 were largely impacted by rising raw material costs and currency fluctuations."
+  },
+  {
+    "id": "vec46",
+    "chunkText": "Economic recovery in Q2 2024 relied heavily on government spending in infrastructure and green energy projects."
+  },
+  {
+    "id": "vec47",
+    "chunkText": "The housing market saw a rebound in late 2024, driven by falling mortgage rates and pent-up demand."
+  },
+  {
+    "id": "vec48",
+    "chunkText": "Wage growth outpaced inflation for the first time in years, signaling improved purchasing power in 2024."
+  },
+  {
+    "id": "vec49",
+    "chunkText": "China's economic growth in 2024 slowed to its lowest level in decades due to structural reforms and weak exports."
+  },
+  {
+    "id": "vec50",
+    "chunkText": "AI-driven automation in the manufacturing sector boosted productivity but raised concerns about job displacement."
+  },
+  {
+    "id": "vec51",
+    "chunkText": "The European Union introduced new fiscal policies in 2024 aimed at reducing public debt without stifling growth."
+  },
+  {
+    "id": "vec52",
+    "chunkText": "Record-breaking weather events in early 2024 have highlighted the growing economic impact of climate change."
+  },
+  {
+    "id": "vec53",
+    "chunkText": "Cryptocurrencies faced regulatory scrutiny in 2024, leading to volatility and reduced market capitalization."
+  },
+  {
+    "id": "vec54",
+    "chunkText": "The global tourism sector showed signs of recovery in late 2024 after years of pandemic-related setbacks."
+  },
+  {
+    "id": "vec55",
+    "chunkText": "Trade tensions between the U.S. and China escalated in 2024, impacting global supply chains and investment flows."
+  },
+  {
+    "id": "vec56",
+    "chunkText": "Consumer confidence indices remained resilient in Q2 2024 despite fears of an impending recession."
+  },
+  {
+    "id": "vec57",
+    "chunkText": "Startups in 2024 faced tighter funding conditions as venture capitalists focused on profitability over growth."
+  },
+  {
+    "id": "vec58",
+    "chunkText": "Oil production cuts in Q1 2024 by OPEC nations drove prices higher, influencing global energy policies."
+  },
+  {
+    "id": "vec59",
+    "chunkText": "The adoption of digital currencies by central banks increased in 2024, reshaping monetary policy frameworks."
+  },
+  {
+    "id": "vec60",
+    "chunkText": "Healthcare spending in 2024 surged as governments expanded access to preventive care and pandemic preparedness."
+  },
+  {
+    "id": "vec61",
+    "chunkText": "The World Bank reported declining poverty rates globally, but regional disparities persisted."
+  },
+  {
+    "id": "vec62",
+    "chunkText": "Private equity activity in 2024 focused on renewable energy and technology sectors amid shifting investor priorities."
+  },
+  {
+    "id": "vec63",
+    "chunkText": "Population aging emerged as a critical economic issue in 2024, especially in advanced economies."
+  },
+  {
+    "id": "vec64",
+    "chunkText": "Rising commodity prices in 2024 strained emerging markets dependent on imports of raw materials."
+  },
+  {
+    "id": "vec65",
+    "chunkText": "The global shipping industry experienced declining freight rates in 2024 due to overcapacity and reduced demand."
+  },
+  {
+    "id": "vec66",
+    "chunkText": "Bank lending to small and medium-sized enterprises surged in 2024 as governments incentivized entrepreneurship."
+  },
+  {
+    "id": "vec67",
+    "chunkText": "Renewable energy projects accounted for a record share of global infrastructure investment in 2024."
+  },
+  {
+    "id": "vec68",
+    "chunkText": "Cybersecurity spending reached new highs in 2024, reflecting the growing threat of digital attacks on infrastructure."
+  },
+  {
+    "id": "vec69",
+    "chunkText": "The agricultural sector faced challenges in 2024 due to extreme weather and rising input costs."
+  },
+  {
+    "id": "vec70",
+    "chunkText": "Consumer spending patterns shifted in 2024, with a greater focus on experiences over goods."
+  },
+  {
+    "id": "vec71",
+    "chunkText": "The economic impact of the 2008 financial crisis was mitigated by quantitative easing policies."
+  },
+  {
+    "id": "vec72",
+    "chunkText": "In early 2024, global GDP growth slowed, driven by weaker exports in Asia and Europe."
+  },
+  {
+    "id": "vec73",
+    "chunkText": "The historical relationship between inflation and unemployment is explained by the Phillips Curve."
+  },
+  {
+    "id": "vec74",
+    "chunkText": "The World Trade Organization's role in resolving disputes was tested in 2024."
+  },
+  {
+    "id": "vec75",
+    "chunkText": "The collapse of Silicon Valley Bank raised questions about regulatory oversight in 2024."
+  },
+  {
+    "id": "vec76",
+    "chunkText": "The cost of living crisis has been exacerbated by stagnant wage growth and rising inflation."
+  },
+  {
+    "id": "vec77",
+    "chunkText": "Supply chain resilience became a top priority for multinational corporations in 2024."
+  },
+  {
+    "id": "vec78",
+    "chunkText": "Consumer sentiment surveys in 2024 reflected optimism despite high interest rates."
+  },
+  {
+    "id": "vec79",
+    "chunkText": "The resurgence of industrial policy in Q1 2024 focused on decoupling critical supply chains."
+  },
+  {
+    "id": "vec80",
+    "chunkText": "Technological innovation in the fintech sector disrupted traditional banking in 2024."
+  },
+  {
+    "id": "vec81",
+    "chunkText": "The link between climate change and migration patterns is increasingly recognized."
+  },
+  {
+    "id": "vec82",
+    "chunkText": "Renewable energy subsidies in 2024 reduced the global reliance on fossil fuels."
+  },
+  {
+    "id": "vec83",
+    "chunkText": "The economic fallout of geopolitical tensions was evident in rising defense budgets worldwide."
+  },
+  {
+    "id": "vec84",
+    "chunkText": "The IMF's 2024 global outlook highlighted risks of stagflation in emerging markets."
+  },
+  {
+    "id": "vec85",
+    "chunkText": "Declining birth rates in advanced economies pose long-term challenges for labor markets."
+  },
+  {
+    "id": "vec86",
+    "chunkText": "Digital transformation initiatives in 2024 drove productivity gains in the services sector."
+  },
+  {
+    "id": "vec87",
+    "chunkText": "The U.S. labor market's resilience in 2024 defied predictions of a severe recession."
+  },
+  {
+    "id": "vec88",
+    "chunkText": "New fiscal measures in the European Union aimed to stabilize debt levels post-pandemic."
+  },
+  {
+    "id": "vec89",
+    "chunkText": "Venture capital investments in 2024 leaned heavily toward AI and automation startups."
+  },
+  {
+    "id": "vec90",
+    "chunkText": "The surge in e-commerce in 2024 was facilitated by advancements in logistics technology."
+  },
+  {
+    "id": "vec91",
+    "chunkText": "The impact of ESG investing on corporate strategies has been a major focus in 2024."
+  },
+  {
+    "id": "vec92",
+    "chunkText": "Income inequality widened in 2024 despite strong economic growth in developed nations."
+  },
+  {
+    "id": "vec93",
+    "chunkText": "The collapse of FTX highlighted the volatility and risks associated with cryptocurrencies."
+  },
+  {
+    "id": "vec94",
+    "chunkText": "Cyberattacks targeting financial institutions in 2024 led to record cybersecurity spending."
+  },
+  {
+    "id": "vec95",
+    "chunkText": "Automation in agriculture in 2024 increased yields but displaced rural workers."
+  },
+  {
+    "id": "vec96",
+    "chunkText": "New trade agreements signed 2022 will make an impact in 2024"
+  }
+]
